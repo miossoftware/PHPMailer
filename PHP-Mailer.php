@@ -18,7 +18,7 @@ if ($_POST){
     $mail->Host = 'smtp.gmail.com';
 
     $mail->Username = 'smtkbdy5422@gmail.com';
-    $mail->Password = 'Sa12345Sa';
+    $mail->Password = 'Sizin Şifreniz';
 
     $mail->CharSet = 'utf-8';
     $mail->setFrom($_POST['name'], $_POST['email']);
