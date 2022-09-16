@@ -17,8 +17,8 @@ if ($_POST){
     $mail->Port = 587;
     $mail->Host = 'smtp.gmail.com';
 
-    $mail->Username = 'smtkbdy5422@gmail.com';
-    $mail->Password = 'Sizin Şifreniz';
+    $mail->Username = 'Mail Göndermek İstediğiniz E-posta Adresi';
+    $mail->Password = 'Mail Göndermek İstediğiniz e-posta adresinin şifresi';
 
     $mail->CharSet = 'utf-8';
     $mail->setFrom($_POST['name'], $_POST['email']);
